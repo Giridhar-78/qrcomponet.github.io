@@ -1,0 +1,56 @@
+body{
+  background-color:#D6E4E5;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bg-card{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.qr-card{
+  background-color:#fff;
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  border-radius: 10px;
+  max-height:100%;
+}
+.qr-img{
+  max-width:100%;
+  border-radius: 10px;
+}
+.qr-header{
+  font-size:22px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color:000000;
+  text-align: center;
+}
+.qr-text{
+  font-size:16px;
+  font-family: "Roboto";
+  text-align: center;
+  color:#50577A;
+  font-weight: 400;
+}
+.attribution{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media only screen and (max-width :578px)  {
+  .qr-card{
+    width:70%;
+  }
+
+}
+@media only screen and (max-width:980px) and (min-width:700px){
+  .qr-card{
+    width:50%;
+  }
+
+}
